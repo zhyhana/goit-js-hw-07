@@ -1,0 +1,40 @@
+.task-container {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: sans-serif;
+}
+.task-container:not(:last-child) {
+  border-bottom: 1px solid #bdbdbd;
+}
+.task-name {
+  font-size: 2em;
+  color: #bdbdbd;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.flex img {
+  display: block;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
